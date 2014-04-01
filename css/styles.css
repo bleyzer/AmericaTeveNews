@@ -3,7 +3,7 @@ body{
 }
 
 .nav-bar{
-    position: relative;;
+    height: 20px;
     border-bottom: 3px solid darkred !important;
     background-image: -webkit-gradient(
     linear,
@@ -19,17 +19,64 @@ background-image: -ms-linear-gradient(bottom, #D97176 0%, #C20202 50%);
 background-image: linear-gradient(to bottom, #D97176 0%, #C20202 50%) !important;
 }
 
+.toggle-btn{
+    border: 0 !important;
+    background-image: url(../images/menu.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    border-radius: 0 !important;
+    float: left !important;
+    margin-left: 15px;
+    margin-top: 15px !important;
+}
+
 .america{
-    position: absolute;
-    top: 0;
-    left: 15%;
-    font-size: 32px;
-    font-weight: bolder
+    font-family: Verdana !important; 
+    font-size: 38px !important;
+    color: white !important;
+    margin-left: -25px;
+    margin-top: -2px
 }
 
 .redes{
-    position: absolute;
-    top: 0;
-    left: 90%;
-    margin-left: -200px
+    float: right;
+}
+
+.redes img{
+    width: 45px;
+    height: 45px;
+    margin-top: 5px
+}
+
+.news{
+    background-color: #ffffff;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+.news h2 p{
+    font-family: arial;
+    color: #2f2f2f;
+    text-align: justify;
+}
+
+.information{
+    padding: 0 15px 15px 15px
+}
+
+.footer-new span{
+    font-family: arial;
+    color: #666666;
+}
+
+@media (max-width: 450px){
+    .redes img{
+        width: 30px;
+        height: 30px;
+        margin-top: 12px
+    }
+    .america{
+        font-size: 28px !important;
+    }
 }
