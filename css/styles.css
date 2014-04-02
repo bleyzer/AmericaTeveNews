@@ -83,6 +83,10 @@ background-image: linear-gradient(to bottom, #D97176 0%, #C20202 50%) !important
     margin-left: 15px
 }
 
+.date{
+    font-size: 100% !important
+}
+
 .footer-new span{
     font-family: arial;
     color: #666666;
@@ -97,9 +101,12 @@ background-image: linear-gradient(to bottom, #D97176 0%, #C20202 50%) !important
 
 @media (max-width: 500px){
     .redes img{
-        width: 3%;
+        width: 4%;
+        height: 4%
     }
-
+    .date{
+        font-size: 80%
+    }
     .toggle-btn {
         width: 15px;
         height: 15px
@@ -114,11 +121,14 @@ background-image: linear-gradient(to bottom, #D97176 0%, #C20202 50%) !important
         font-size: 7px !important
     }
 }
-@media (max-width: 310px){
+@media (max-width: 320px){
     .redes img{
-        width: 2%;
+        width: 3%;
+        height: 3%
     }
-
+    .date{
+        font-size: 60%
+    }
     .toggle-btn {
         width: 13px;
         height: 13px
@@ -134,7 +144,7 @@ background-image: linear-gradient(to bottom, #D97176 0%, #C20202 50%) !important
     }
 }
 
-@media screen and (max-device-width:460px) and (orientation:landscape){
+@media screen and (max-device-width:480px) and (orientation:landscape){
     .news{
         background-color: green
     }
