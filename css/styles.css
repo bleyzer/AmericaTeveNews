@@ -116,3 +116,8 @@ background-image: linear-gradient(to bottom, #D97176 0%, #C20202 50%) !important
     }
 }
 
+@media screen and (max-device-width:480px) and (orientation:landscape){
+    .news{
+        background-color: green
+    }
+}
