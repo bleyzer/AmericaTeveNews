@@ -21,7 +21,7 @@ background-image: linear-gradient(to bottom, #D97176 0%, #C20202 50%) !important
 
 .toggle-btn{
     border: 0 !important;
-    background-image: url(../images/menu.png);
+    background-image: url(../images/menu.png) !important;
     background-size: 100%;
     background-repeat: no-repeat;
     width: 25px;
@@ -88,13 +88,31 @@ background-image: linear-gradient(to bottom, #D97176 0%, #C20202 50%) !important
     color: #666666;
 }
 
+.nav-footer li{
+    font-size: 22px;
+    color:white;
+    font-weight: bolder;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
 @media (max-width: 500px){
     .redes img{
         width: 30px;
         height: 30px;
         margin-top: 12px
     }
-    .america{
-        width: 20px
+    .america img{
+        height: 20px
+    }
+    .toggle-btn {
+        width: 15px;
+        height: 15px
+    }
+    .news h2{
+        font-size: 18px;
+    }
+    .news p{
+        font-size: 10px
     }
 }
+
